@@ -1,0 +1,119 @@
+body{
+    font-size: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header{
+    max-width: 1200px;
+}
+
+#gnb{
+    background: #333;
+    padding: 35px;
+    text-align: center;
+}
+
+
+#gnb ul li{
+    margin-right: 50px;
+    display: inline-block;
+}
+
+#gnb ul li:last-child{
+    margin-right: 0;
+}
+
+#gnb ul li a{
+    color: #fff;
+}
+
+#main-visual{
+    background-image: url(../images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+#contents{
+    display: flex;
+}
+
+#contents article{
+    padding: 50px 30px;
+    flex: 1;
+}
+
+#contents article > h2{
+    margin-bottom: 40px;
+}
+
+#contents article > ul > li{
+    margin-bottom: 15px;
+}
+
+#contents article > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+#contents .about ul li span{
+    display: block;
+    margin-top: 15px;
+}
+
+#contents .about{
+    background: #fff;
+}
+
+#contents .location{
+    background: #ddd;
+}
+
+#choice{
+    background: #333;
+    padding: 50px 30px;
+}
+
+#choice h2{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#choice > article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#choice > article > .text > h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #d67e42;
+}
+
+#choice > article > .text > p{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#choice > article > img{
+    width: 300px;
+}
+
+footer{
+    padding: 30px 0;
+}
+
+footer > .copy{
+    font-weight: 600;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
